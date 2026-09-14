@@ -35,6 +35,7 @@ input{
 
 
 
+
 button{
 
     font-size: 32px;
@@ -44,4 +45,9 @@ button{
     background-color: blue;
     color: white;
 
+}
+
+p{
+    font-size: 24px;
+    text-align: center;
 }

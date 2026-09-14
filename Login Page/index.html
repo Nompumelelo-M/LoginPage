@@ -2,20 +2,30 @@
 <html>
     <head>
         <title>Login Page</title>
-        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+
+
     </head>
     <body>
+
+        
         
         <div>
 
         <label>Email</label><br>
-        <input><br><br>
+        <input id="email" type="text"><br><br>
 
         <label>Password</label><br>
-        <input><br><br>
-        
-        <button>Login</button>
+        <input id="password" type="password"><br><br>
+
+        <button onclick="login()">Login</button>
+
+        <p id="message"></p>
 
         </div>
+
+
+
         </body>
 </html>
